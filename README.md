@@ -5,7 +5,7 @@ Supports interactive and fast downloading with pause/resume support using <a hre
 
 # Screenshots and demo
 
-<video width="480" controls>
+<video width="480" height="960" autoplay>
 <source src="assets/01.mp4" type="video/mp4">
 </video>
 
