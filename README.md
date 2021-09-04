@@ -5,11 +5,10 @@ Supports interactive and fast downloading with pause/resume support using <a hre
 
 # Screenshots and demo
 
-<video width="480" height="960" autoplay>
-<source src="assets/01.mp4" type="video/mp4">
-  Browser doesn't support videos!
-</video>
+![](https://user-images.githubusercontent.com/72879577/132082984-ba29ecc2-c3ed-4248-8768-b3e54176c623.mp4)
 
 <img src='assets/r03.jpeg' width='480'/>
+
 <img src='assets/r02.jpeg' width='480'/>
+
 <img src='assets/r01.jpeg' width='480'/>
