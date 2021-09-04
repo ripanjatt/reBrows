@@ -7,6 +7,7 @@ Supports interactive and fast downloading with pause/resume support using <a hre
 
 <video width="480" height="960" autoplay>
 <source src="assets/01.mp4" type="video/mp4">
+  Browser doesn't support videos!
 </video>
 
 <img src='assets/r03.jpeg' width='480'/>
