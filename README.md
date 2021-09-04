@@ -1,5 +1,5 @@
 # reBrows
-A fast and reliable web browser
+A fast and reliable android web browser
 
 Supports interactive and fast downloading with pause/resume support using <a href='https://github.com/ripanjatt/jDownloader'>jDownloader</a>
 
