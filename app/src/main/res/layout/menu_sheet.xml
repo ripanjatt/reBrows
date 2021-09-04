@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_red">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Menu"
+            android:textColor="@color/baby_blue"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageButton
+            android:id="@+id/sheetClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:padding="8dp"
+            android:src="@drawable/ic_baseline_close_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@color/baby_blue"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView">
+
+            <Button
+                android:id="@+id/sheetHistory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/ic_baseline_history_24"
+                android:onClick="menu"
+                android:padding="8dp"
+                android:text="History"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black_custom"
+                app:icon="@drawable/ic_baseline_history_24"
+                app:iconTint="@color/black_custom" />
+
+            <Button
+                android:id="@+id/sheetSpeedMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="menu"
+                android:padding="8dp"
+                android:text="Speed Mode"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black_custom"
+                app:icon="@drawable/ic_baseline_directions_run_active_24"
+                app:iconTint="@color/black_custom" />
+
+            <Button
+                android:id="@+id/sheetIncognito"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="menu"
+                android:padding="8dp"
+                android:text="Incognito Mode"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black_custom"
+                app:icon="@drawable/ic_baseline_remove_red_eye_24"
+                app:iconTint="@color/black_custom" />
+
+            <Button
+                android:id="@+id/sheetDownloads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="menu"
+                android:padding="8dp"
+                android:text="Downloads"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black_custom"
+                app:icon="@drawable/ic_baseline_arrow_downward_24"
+                app:iconTint="@color/black_custom" />
+
+            <Button
+                android:id="@+id/sheetSettings"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="menu"
+                android:padding="8dp"
+                android:text="Settings"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black_custom"
+                app:icon="@drawable/ic_baseline_settings_24"
+                app:iconTint="@color/black_custom" />
+
+            <Button
+                android:id="@+id/sheetExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:onClick="menu"
+                android:padding="8dp"
+                android:text="Exit"
+                android:textAlignment="textStart"
+                android:textAllCaps="false"
+                android:textColor="@color/black_custom"
+                app:icon="@drawable/ic_baseline_exit_to_app_24"
+                app:iconTint="@color/black_custom" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
